@@ -7,7 +7,7 @@ body{
     width:2048px;
     background:transparent;
     overflow: hidden;
-    border:solid 5px;
+    border:solid 10px;
 }
 
 .container {
@@ -18,7 +18,7 @@ body{
 button{
     height:2048px;
     width:256px;
-    border: 5px solid ;
+    border: 10px solid ;
     background-color: transparent;
 
     transition-duration: 0.4s;
@@ -63,3 +63,7 @@ p{
     color:green;
 }
 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
