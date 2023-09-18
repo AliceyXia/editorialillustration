@@ -1,7 +1,13 @@
 svg{
     margin:0;
+    width:80%;
+    height:auto;
 }
 
 body{
     background-color: rgb(255, 255, 255);
+}
+
+svg:hover{
+    filter: invert(100%);
 }

@@ -5,7 +5,7 @@ document.getElementById("color-block").onclick = function () {
     if (
       (document.getElementById("color-block").style.backgroundColor == "rgb(255, 255, 255)")
     ) {
-      document.getElementById("color-block").style.backgroundColor = "rgb(9, 255, 0)";
+      document.getElementById("color-block").style.backgroundColor = "black";
     } else {
       document.getElementById("color-block").style.backgroundColor = "rgb(255, 255, 255)";
     }
