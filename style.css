@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(180deg, #2fff00, #bbff00, #d7ff00);
+}
+
+.canvas{
+    height:2048px;
+    width:2048px;
+    background:transparent;
+    overflow: hidden;
+    border:solid 5px;
+}
+
+.container {
+   display:flex;
+   flex-direction:row;
+  }
+
+button{
+    height:2048px;
+    width:256px;
+    border: 5px solid ;
+    background-color: transparent;
+
+    transition-duration: 0.4s;
+ 
+}
+
+
+
+.flex{
+    display:flex;
+    flex-direction: column;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.fade:hover {
+    animation-play-state: paused;
+  }
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+        transform: translate3d(0, -1000px, 0);
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:200px;
+    margin: 0;
+    color:green;
+}
+
