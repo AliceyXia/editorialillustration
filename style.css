@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(180deg, #2fff00, #bbff00, #d7ff00);
+    background: linear-gradient(180deg, #ffffff, #505050, #000000);
 }
 
 .canvas{
@@ -7,7 +7,7 @@ body{
     width:2048px;
     background:transparent;
     overflow: hidden;
-    border:solid 10px;
+    border:solid 5px;
 }
 
 .container {
@@ -18,7 +18,7 @@ body{
 button{
     height:2048px;
     width:256px;
-    border: 10px solid ;
+    border: 15px solid ;
     background-color: transparent;
 
     transition-duration: 0.4s;
@@ -60,7 +60,7 @@ p{
     font-family: 'Courier New', Courier, monospace;
     font-size:200px;
     margin: 0;
-    color:green;
+    color:#2fff00;
 }
 
 a:link { text-decoration: none; }
