@@ -1,0 +1,17 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.canvas{
+    height:512px;
+    width:512px;
+    overflow: hidden;
+}
+
+img{
+    width:512px;
+    height:auto;
+    background: rgb(0,0,0);
+}
